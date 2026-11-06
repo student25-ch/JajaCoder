@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# Copyright (C) 2026 JajaCoder-GUI Authors
+# Licensed under GPLv3
+import sys
+from PySide6.QtWidgets import QApplication
+from main_window import MainWindow
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    win = MainWindow()
+    win.show()
+    sys.exit(app.exec())
